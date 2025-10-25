@@ -76,7 +76,3 @@ def delete_blog(session: SessionDep, blog_id: int):
     session.commit()
     return {"ok": True}
 
-
-from vercel_py.fastapi import VercelFastAPI
-handler = VercelFastAPI(app)
-
