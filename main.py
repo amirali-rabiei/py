@@ -6,7 +6,7 @@ from datetime import datetime
 from typing import Annotated
 
 
-# database -------
+# database --------
 sqlite_file_name = "database.db"
 sqlite_url = f"sqlite:///{sqlite_file_name}"
 
