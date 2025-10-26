@@ -68,6 +68,11 @@ def on_startup():
 def index():
     return {'data': "index"}
 
+@app.post("/api/blogx")
+def test_blog():
+    return {"message": "ok"}
+
+
 
 @app.get("/api/blogs")
 def all_blog(
